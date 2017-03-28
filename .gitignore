@@ -1,4 +1,3 @@
-# ignore all logs
 *.log
 *.sublime-project
 *.sublime-workspace
