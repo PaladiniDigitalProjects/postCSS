@@ -10,9 +10,10 @@ gulp.task('css', function () {
   cssnext,
   precss
 ];
-  return gulp.src('./src/*.css')
-    .pipe(postcss(processors))
-    .pipe(gulp.dest('./dest'));
+
+return gulp.src('./src/*.css')
+  .pipe(postcss(processors))
+  .pipe(gulp.dest('./dest'));
 });
 
 gulp.task('watch', function () {  
