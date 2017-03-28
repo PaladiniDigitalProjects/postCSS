@@ -1,8 +1,14 @@
 /* Testing autoprefixer */
  
 .autoprefixer {
+  display: -ms-flexbox;
+  display: -webkit-box;
   display: flex;
-  border:1px solid olive;
+  border:1px solid gold;
+}
+ 
+.autoprefixer a {
+  color:blue;
 }
  
 /* Testing cssnext */
@@ -17,3 +23,11 @@
   background: red
 }
 
+.lerete {
+  font-size: 20px;
+  color:gold;
+}
+
+.lereter {
+  color:red;
+}
